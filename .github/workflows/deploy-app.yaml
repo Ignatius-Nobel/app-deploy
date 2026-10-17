@@ -13,3 +13,5 @@ jobs:
         steps:
             - name: Test message
               run: echo "Deploying app…"
+            - name: Checkout code
+              run: echo "End.."
